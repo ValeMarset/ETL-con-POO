@@ -1,0 +1,20 @@
+# Ignora la carpeta Lib, que es donde se instalan las bibliotecas y paquetes de Python en un entorno virtual.
+Lib/
+
+# Ignora la carpeta Scripts, que contiene los ejecutables y scripts asociados con el entorno virtual.
+Scripts/
+
+#Ignora la carpeta Include, que puede contener archivos de inclusión utilizados en el entorno virtual.
+Include/
+
+# Ignorar la carpeta .idea del editor de código (por ejemplo, PyCharm)
+.idea/
+
+# Ignorar la carpeta __pycache__ que contiene archivos de caché de Python
+__pycache__/
+
+# Ignorar el archivo de configuración específico de venv que se crea al crear el entorno virtual
+pyvenv.cfg
+
+# carpeta de archivos csv
+files/
